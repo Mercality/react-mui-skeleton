@@ -1,5 +1,8 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-
-
-ReactDOM.render();
+import { React, Component } from 'react';
+import ReactDOM from 'react-dom';
+import Hola from './components/hola.jsx';
+ 
+ReactDOM.render(
+  <Hola />,
+  document.getElementById('reactContainer')
+);
